@@ -52,7 +52,7 @@ body {
   align-items: center;
 }
 .img-wrapper {
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
 }
 
 /*! NAV */
@@ -134,7 +134,7 @@ footer{
     height: 100vh;
   }
   .img-shin-container {
-    flex: 2;
+    flex: 400px;
     position: relative;
   }
   .class-info {
