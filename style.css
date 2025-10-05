@@ -10,7 +10,11 @@ body {
   font-family: sans-serif;
   scroll-behavior: smooth;
   scroll-padding: 100px;
+  color: #343a40;
 
+}
+span{
+  color: green;
 }
 .container {
   height: 100vh;
@@ -66,6 +70,7 @@ body {
 a:link {
   display: block;
   text-decoration: none;
+  color: black;
 }
 a:visited {
   color: black;
@@ -76,7 +81,14 @@ a:hover {
 a:active {
   font-style: italic;
 }
-
+.btn-hireMe{
+  border: none;
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  padding: 7px 12px;
+  width: 50%;
+}
 
 
 /*! Main-content */
@@ -107,6 +119,8 @@ main {
   right: 0;
   
 }
+
+/* Section 2 */
 
 /*! Footer */
 footer{
